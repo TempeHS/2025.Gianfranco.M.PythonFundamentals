@@ -3,7 +3,3 @@ def case(sentence):
 
 
 sentence = input("what is the answer to life, the universe and everything?")
-
-final = case(sentence)
-
-print(final)
