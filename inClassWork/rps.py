@@ -39,4 +39,20 @@ while gamesPlayed < 3:
             if rand == "scissors":
                 print("draw")
 
-print(f"gamesWon)
+        case _:
+            print("idiot choose a character, minus game won")
+            gamesWon -= 1
+print(" ")
+print(f"you have won {gamesWon} games")
+
+
+def fun():
+    if gamesWon == 3:
+        print("WOW GOOD JOB")
+    if 0 < gamesWon < 2:
+        print("you SUCK at this game !!!")
+    if gamesWon < 1:
+        print("how do you not even win u are exiled")
+
+
+fun()
