@@ -1,0 +1,16 @@
+coke_price = 50
+accepted_coins = [25, 10, 5]
+
+while coke_price > 0:
+    print("you need ", coke_price)
+    inserted_coins = int(input("put in money!! (cents)"))
+    if inserted_coins in accepted_coins:
+        coke_price -= inserted_coins
+    print("")
+
+print("")
+print("your change is ")
+print(abs((int(coke_price))))
+print("")
+if coke_price <= 0:
+    print("ur coke now here ")
