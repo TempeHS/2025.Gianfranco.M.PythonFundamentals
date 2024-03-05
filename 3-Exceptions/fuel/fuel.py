@@ -4,6 +4,7 @@ try:
     if b == 0:
         raise ZeroDivisionError("IDIOT DONT USE ZEROR IN DIVIDOE!!! ")
     fuelFloat = a / b
+    fuelFloat = round(fuelFloat, 2)
 
     def fuelCalc():
         global fuelFloat
